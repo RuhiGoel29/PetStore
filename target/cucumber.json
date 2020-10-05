@@ -1,0 +1,167 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User sets the base url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 87294799,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set the base url for pet store",
+            "match": {
+              "location": "PetStoreStepDefinitions.i_set_the_base_url_for_pet_store()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 452600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Implementing the API automated checks for DEMO PET STORE",
+        "description": "",
+        "id": "petstore-feature-file;implementing-the-api-automated-checks-for-demo-pet-store",
+        "after": [
+          {
+            "result": {
+              "duration": 125400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6881921800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I GET all the available pets",
+            "match": {
+              "location": "PetStoreStepDefinitions.i_GET_all_the_available_pets()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8883101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate the status code of API is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "PetStoreStepDefinitions.i_validate_the_status_code_of_API_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1765851201,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I POST a new available pets in the store",
+            "match": {
+              "location": "PetStoreStepDefinitions.i_POST_a_new_available_pets_in_the_store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate the status code of API is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "PetStoreStepDefinitions.i_validate_the_status_code_of_API_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1633136100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I PUT the pet status to sold",
+            "match": {
+              "location": "PetStoreStepDefinitions.i_PUT_the_pet_status_to_sold()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423801,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I validate the status code of API is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "PetStoreStepDefinitions.i_validate_the_status_code_of_API_is(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "petstore feature file",
+    "description": "",
+    "id": "petstore-feature-file",
+    "keyword": "Feature",
+    "uri": "PetStore.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
